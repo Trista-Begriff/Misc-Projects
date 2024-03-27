@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+*{
+	margin: 1;
+	padding: 1;
+	box-sizing: border-box;
+}
+body {
+	font-family: Calibri(Body);
+	font-size: 11px;
+	background-color: #f4f4f4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+.container {
+	background-color: #89c82e;
+	font-family: Calibri(Body);
+	font-size: 11px;
+	border: 5px #3c3c3b;
+	text-align: center;
+	border-style: solid;
+	border-radius: 20px;
+	width:300px;
+}
+::placeholder {
+	font-family: Calibri(Body);
+	font-size: 11px;
+}
+.field {
+	font-family: Calibri(Body);
+	font-size: 11px;
+}
+
+form {
+	max-width: 400px;
+	margin: 40px auto;
+	padding: 0.5rem 1rem;
+}

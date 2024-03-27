@@ -1,0 +1,74 @@
+{
+  "id": "4f8c511e-7b09-46fa-a4b0-e19d59fddeee",
+  "version": "2.0",
+  "name": "Test 1",
+  "url": "https://dn-uni.com",
+  "tests": [{
+    "id": "47b1c235-05f6-44cf-ba51-e390cee6075d",
+    "name": "Test 1",
+    "commands": [{
+      "id": "6fbf22f7-bd59-4251-9133-0fedb072baec",
+      "comment": "",
+      "command": "open",
+      "target": "/sftl4-trial-activity/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bd9c001-f090-4903-8eb6-cb6a92a6264e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ead03bbf-3517-4668-84ef-5a1c30740072",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=Name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='divtest']/form/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac5dc65d-4bc9-460e-ae1e-69af41f0aa8e",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=Name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='divtest']/form/p/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Jon4than Do£"
+    }, {
+      "id": "9cc63d5e-a057-4fab-af96-13f6d88a4cdc",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='divtest']/form/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5f5c489e-15dc-4fb5-a63e-3db29fbf693b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["47b1c235-05f6-44cf-ba51-e390cee6075d"]
+  }],
+  "urls": ["https://dn-uni.com/"],
+  "plugins": []
+}

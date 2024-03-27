@@ -1,0 +1,31 @@
+Create a 200+ word reflection on the activity.
+How was working from User Stories?
+How was it having the test cases before you started development?
+How did you implement the code?
+What have you learned?
+What would you do differently?
+
+
+The challenge was fun and engaging, although having never encountered javascript before, and thus there being a rather significant learning hurdle, 
+I was not able in the time available to develop an applicatication which met every requirement the user stories required.
+There was a small difficulty caused by an inconsistency in the user stories, as two different pinks were presented as being interchangeable,
+on account of what appears to be an incorrect digit in the hex code. Given more time to learn javascript,
+I am confident I could create an application which fulfils the requirements of the user stories. 
+
+Having the test cases before development made it a little easier to identify important exceptions to catch, although I am not yet proficient 
+enough with javascript to prevent most of these from arising. 
+
+I tried to implement the code as a html file interacting with a css file and a js file. This was only partially successful, as I could not 
+get all the css or any of the javascript to interact properly, and thus had to utilise inline css and js on the html file for most of the coding.
+I attempted to solve one requirement at a time, building in complexity, thus first creating the basic form in html, then the formatting and design 
+elements in css, then the scripting in js. The last of these breaks if I add or remove anything, for reasons I do not currently understand, and thus 
+I cannot add to it any further. 
+
+I have learned to quite confidently use HTML to create a form, and not unconfidently use CSS for formatting this. I have also learned that javascript is 
+significantly more difficult than these languages, and that I am at present very inept with it. I have learned a lot about troubleshooting problems with code
+using online resources, and to look up colours' hexadecimal codes. 
+
+In the javascript portion of my plan hinged upon a long string of consecutive conditionals to validate the form inputs - given my background in philosophical
+logic, this made initial sense to me, as being stylistically similar to a deductive proof. This was a grave mistake. I think this was probably too 
+inefficient as a way of checking the inputs, and was likely responsible for the irrecoverable state the javascript portion of the project entered. 
+If I were to do this exercise again, I would try to find a more elegant and stable solution to the problem of checking inputs.  

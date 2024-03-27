@@ -1,0 +1,75 @@
+<html>
+
+<head>
+	<title> Black Dice Software Dev Challenge 
+	</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+<link rel="stylesheet" href="design.css" />
+		<div class="container">	
+			<form method="post" onsubmit="return validateForm()"action="mailto:challenge@dn-uk.com" id="theform">
+				<h1>      </h1>
+				<div class="field">
+					<label for="name">Name:</label>
+					<input type="text" id="name" placeholder="Enter your Name"><br><br>
+					<small></small>
+				</div>
+				<div class="field">
+					<label for="email">Email:</label>
+					<input type="text" id="email" placeholder="Enter your Email"><br><br>
+					<small></small>
+				</div>
+				<div class="field">
+					<label for="card">Card:</label>
+					<input type="text" id="card" placeholder="Enter your Card Number"><br><br>
+					<small></small>
+				</div>
+				<div class="field">
+					<button type="submit" style="background-color:#e70064;border-color:#3c3c3b;color:#3c3c3b;font-family:calibri(body);font-size:11px" value="Send" class="full"> Submit</button>
+				</div>
+			</form>
+		</div>
+		<script>
+		document.getElementById("theform").addEventListener("false", function(event){
+  event.preventDefault()
+});
+		function validateForm() {
+  var x=document.getElementById('name').value;
+  var y=document.getElementById('email').value;
+  var z=document.getElementById('card').value;
+ 
+    if(x == ""){
+        document.getElementById('name').style.backgroundColor = "#e70064";
+        return false;
+    }else{
+        document.getElementById('name').style.backgroundColor = "green";
+    }
+    if (/^[0-9]+$/.test(document.getElementById("name").value)) {        
+        document.getElementById('name').style.backgroundColor = "#e70064";
+        return false;
+    }else{
+        document.getElementById('name').style.backgroundColor = "#89c82e";
+    }
+    if(x.length <=2){       
+        document.getElementById('name').style.backgroundColor = "#e70064";
+        return false;
+    }else{
+        document.getElementById('name').style.backgroundColor = "#89c82e";
+    }
+	if(y == ""){
+        document.getElementById('email').style.backgroundColor = "#e70064";
+        return false;
+	 }else{
+        document.getElementById('email').style.backgroundColor = "#89c82e";
+	}
+	if(z == ""){
+        document.getElementById('card').style.backgroundColor = "#e70064";
+        return false;
+	 }else{
+        document.getElementById('card').style.backgroundColor = "#89c82e";
+	}
+}</script>
+</body>
+	
+</html>
